@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/61352086/170313473-feb525ff-7b05-4eda-9ce1-9bdae04fd0db.png)
+![image](https://inatel.br/cdghub/images/cdg-hub.jpg)
 *  [Documentação React Native](https://reactnative.dev/docs/tutorial)
 *  [Documentação Flutter](https://docs.flutter.dev/development/ui/widgets-intro)
 *  [Slides](https://github.com/BrunoVollin/secomp/blob/master/slides/introducao%20ao%20flutter.pdf)
