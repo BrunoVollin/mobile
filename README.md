@@ -1,5 +1,6 @@
 ![image](https://inatel.br/cdghub/images/cdg-hub.jpg)
 *  [Documentação React Native](https://reactnative.dev/docs/tutorial)
+*  [Inputs React Native](https://reactnative.dev/docs/handling-text-input)
 *  [Documentação Flutter](https://docs.flutter.dev/development/ui/widgets-intro)
 *  [Slides](https://github.com/BrunoVollin/secomp/blob/master/slides/introducao%20ao%20flutter.pdf)
 *  [Material Mobile CDG Hub](https://cookie-submarine-e90.notion.site/Mobile-eb12212247fb42738c82f0d3fe148e03)
