@@ -12,36 +12,24 @@ import { Text, TextInput, View, Image } from 'react-native';
 const PizzaTranslator = () => {
   const [text, setText] = useState('');
   return (
-    <View
-      style={{
-        padding: 10,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}>
+    <View style={{ padding: 10, display:  'flex', justifyContent: "center", alignItems: "center" }}>
       <Image
         style={{
-          width: 200,
-          height: 200,
-          margin: 40,
+          height:200,
+          width:200
         }}
         source={{
           uri: 'https://neurochispas.com.br/wp-content/uploads/2021/08/formula-para-o-volume-de-um-cubo.png',
         }}
       />
       <TextInput
-        style={{
-          height: 40,
-          margin: 40,
-          backgroundColor: '#cccc',
-          width: '80vw',
-          borderRadius: 5,
-        }}
-        placeholder="Entre com a Aresta!"
+        style={{ height: 40, backgroundColor: "#cccc", width: "80vw" }}
+        placeholder="Entre com a aresta!"
         onChangeText={(newText) => setText(newText)}
         defaultValue={text}
       />
-      <Text style={{ fontSize: 20 }}>Volume: {text * text * text} m<sup>3</sup></Text>
+      <Text style={{ padding: 10, fontSize: 42 }}>
+      {text * text * text} m^3</Text>
     </View>
   );
 };
